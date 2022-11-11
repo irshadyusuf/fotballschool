@@ -1,0 +1,55 @@
+#img1{
+    height: 80px;
+    width: 90px;
+    position: absolute;
+    padding-left: 30px; 
+    
+}
+#nav1{
+    background-color: #1e6deb;
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+li{
+    position: relative;
+    left:500px;
+    display: inline;
+}
+
+h1{
+    display: inline;
+    padding: 20px;
+}
+#ch1{
+    font: bolder;
+    text-align: center;
+}
+#img8{
+    width: 100%;
+}
+#ch2{
+    height: 150px;
+    width: 100%;
+}
+.nav2{
+    padding-top: 10px;
+    color: azure;
+}
+#parent{
+    height: 400px;
+    width: 100%;
+}
+#ch3{
+    position: relative;
+    margin-left: 200px;
+}
+a{
+    text-decoration: none;
+}
+.at{
+    color: aliceblue;
+}

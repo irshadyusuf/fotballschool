@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'styles/scedule.css' %}">
+</head>
+<body>
+    <div id="nav1">
+        <div>
+            <img id="img1" src="https://keralablastersfc.in/wp-content/uploads/2022/07/logo-01.png">
+        </div>
+        <div class="nav2">
+            <ul>
+                <a class="at" href="{% url 'fotballschool:log' %}">
+                <li>
+                    <h1>Home</h1>
+               </li>
+               </a>
+               <a class="at" href="{% url 'fotballschool:clu' %}">
+                <li>
+                    <h1>Club</h1>
+                </li>
+                 </a>
+                 <a class="at" href="{% url 'fotballschool:tic' %}">
+                <li>
+                    <h1>Ticket</h1>
+                </li>
+                </a>
+                <a class="at" href="{% url 'fotballschool:sce' %}">
+                <li>
+                    <h1>Schedule</h1>
+                </li>
+                 </a>
+                 <a class="at" href="">
+                <li>
+                    <h1>News</h1>
+                </li>
+                </a>
+                <a class="at" href="{% url 'fotballschool:you' %}">
+                <li>
+                    <h1>Young blasters</h1>
+                </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    </div>
+     <div><img id="img11" src="{% static 'images/sch2.jpg' %}"></div>
+     <div><img src="{% static 'images/center.avif' %}"></div>
+
+</body>
+</html>

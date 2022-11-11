@@ -1,0 +1,67 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'styles/club.css' %}">
+</head>
+<body>
+    <div id="parent1">
+    <div id="nav1">
+        <div>
+            <img id="img1" src="https://keralablastersfc.in/wp-content/uploads/2022/07/logo-01.png" >
+        </div>
+        <div class="nav2">
+            <ul>
+                <a class="at" href="{% url 'fotballschool:log' %}">
+                <li>
+                    <h1>Home</h1>
+               </li>
+               </a>
+               <a class="at" href="{% url 'fotballschool:clu' %}">
+                <li>
+                    <h1>Club</h1>
+                </li>
+                 </a>
+                 <a class="at" href="{% url 'fotballschool:tic' %}">
+                <li>
+                    <h1>Ticket</h1>
+                </li>
+                </a>
+                <a class="at" href="{% url 'fotballschool:sce' %}">
+                <li>
+                    <h1>Schedule</h1>
+                </li>
+                 </a>
+                 <a class="at" href="">
+                <li>
+                    <h1>News</h1>
+                </li>
+                </a>
+                <a class="at" href="{% url 'fotballschool:you' %}">
+                <li>
+                    <h1>Young blasters</h1>
+                </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div id="ch1"><h1>HOME STADIUM</h1></div>
+    <div>
+        <img id="img8" src="{% static 'images/homs.jpg' %}">
+     </div>
+     <div id="parent2">
+       <div id="ch2">
+        <p>Our Home, Jawaharlal Nehru International Stadium, popularly known as the Kaloor Stadium situated in Kochi, Kerala is one of India’s largest and most modern venues. Completed in 1996, ahead of schedule, by the Greater Cochin Development Authority (GCDA), the stadium has a unique shape owing to the triple tiered stands, sloping and contemporary roof structure, modern turf, four-lane road from the southern side of the stadium and massive floodlight masts going through the roof. The lighting towers of 2kW flood lights is one of the most innovative aspects of the stadium, which when switched on fully can provide lighting levels for an HD telecast. The home of the Yellow Sea is widely touted to be one of the noisiest football stadiums in the world for the record crowds that the stadium accommodates and its distinctive architecture.
+
+            Originally constructed as a football stadium, it has also been used as a cricket ground by both the Kerala Cricket team and the national side. The Nehru Cup International Football Tournament was the first tournament that was conducted at the Kaloor Stadium in 1997. It was also one of the six host venues for the 2017 FIFA U-17 World Cup held in India. The home of the 2 time ISL finalists was also awarded, ‘The Best Pitch’ in 2018-19, owing to a high quality maintenance of its natural grass turf.</p>
+        </div>
+        <div>
+            <img id="ch3" src="{% static 'images/east.jpg' %}" >
+        </div>
+    </div>
+</body>
+</html>

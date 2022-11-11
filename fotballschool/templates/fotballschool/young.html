@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'styles/young.css' %}">
+</head>
+
+<body>
+    <div id="nav1">
+        <div>
+            <img id="img1" src="https://keralablastersfc.in/wp-content/uploads/2022/07/logo-01.png">
+        </div>
+        <div class="nav2">
+            <ul>
+                <a class="at" href="{% url 'fotballschool:log' %}">
+                <li>
+                    <h1>Home</h1>
+               </li>
+               </a>
+               <a class="at" href="{% url 'fotballschool:clu' %}">
+                <li>
+                    <h1>Club</h1>
+                </li>
+                 </a>
+                 <a class="at" href="{% url 'fotballschool:tic' %}">
+                <li>
+                    <h1>Ticket</h1>
+                </li>
+                </a>
+                <a class="at" href="{% url 'fotballschool:sce' %}">
+                <li>
+                    <h1>Schedule</h1>
+                </li>
+                 </a>
+                 <a class="at" href="">
+                <li>
+                    <h1>News</h1>
+                </li>
+                </a>
+                <a class="at" href="{% url 'fotballschool:you' %}">
+                <li>
+                    <h1>Young blasters</h1>
+                </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <div class="parent">
+            <span id="small"><h1>YOUNG BLASTERS</h1></span>
+            
+        </div>
+    </div>
+    <div id="ch3">
+        <h1>Young Blasters</h1>
+        <p>Kerala Blasters FC kick started the ‘KBFC Young Blasters’ program, a Grassroots and Youth development
+            initiative for budding and passionate talents across the state in November 2019 with the launch of their
+            Parkway Football Centre. With an objective to spread the KBFC style of football across Kerala, the Young
+            Blasters program will be completely organized and coordinated by Kerala Blasters FC.</p>
+        <p>As torchbearers of football development in Kerala, Technique, Purpose and Joy becomes the three core values
+            that the club upholds through ‘Young Blasters’. A standardised, scientific and procedural form of coaching
+            that paves way to a bright career in football, thereby achieving pure joy from the sport is the key idea
+            behind this initiative.</p>
+    </div>
+    <div id="main">
+        <div>
+            <img id="img13" src="{% static 'images/yug.jpg' %}">
+        </div>
+        <div>
+
+            
+            
+           <h3> As torchbearers of football development in Kerala, Technique, Purpose and Joy becomes the three core
+                values that the club upholds through ‘Young Blasters’. A standardised, scientific and procedural form of
+                coaching that paves way to a bright career in football, thereby achieving pure joy from the sport is the
+                key idea behind this initiative.</h3>
+                <button id="bt">REGISTER NOW</button>
+        </div>
+
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>

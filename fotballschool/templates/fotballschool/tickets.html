@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'styles/ticket.css' %}">
+</head>
+
+<body>
+    <div id="nav1">
+        <div>
+            <img id="img1" src="https://keralablastersfc.in/wp-content/uploads/2022/07/logo-01.png">
+        </div>
+        <div class="nav2">
+            <ul>
+                <a class="at" href="{% url 'fotballschool:log' %}">
+                <li>
+                    <h1>Home</h1>
+               </li>
+               </a>
+               <a class="at" href="{% url 'fotballschool:clu' %}">
+                <li>
+                    <h1>Club</h1>
+                </li>
+                 </a>
+                 <a class="at" href="{% url 'fotballschool:tic' %}">
+                <li>
+                    <h1>Ticket</h1>
+                </li>
+                </a>
+                <a class="at" href="{% url 'fotballschool:sce' %}">
+                <li>
+                    <h1>Schedule</h1>
+                </li>
+                 </a>
+                 <a class="at" href="">
+                <li>
+                    <h1>News</h1>
+                </li>
+                </a>
+                <a class="at" href="{% url 'fotballschool:you' %}">
+                <li>
+                    <h1>Young blasters</h1>
+                </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+    
+    <div><img id=img9 src="{% static 'images/tick.jpg' %}"></div>
+    <div id="xyz">
+        <div>
+            <img id="img10" src="{% static 'images/sea.webp' %}">
+           <h1>SEASON TICKETS</h1>
+           <p>Get yourself a season ticket.The season ticket gives you access to every home game<br> of the Kerala
+                Blasters Football Club for the Hero ISL 2022-23 season.</p>
+                <button id="bt1">BUY NOW</button>
+
+        </div>
+        <div>
+            <img id="img11" src="{% static 'images/one.webp' %}">
+            <h1>SINGLE MATCH TICKET</h1>
+           <p> Get your Individual Match Tickets to KBFC Home matches of Hero ISL Season 2022/23.<br>Be part of the Yellow Tribe to cheer for your heroes.</p>
+           <button id="bt2">BUY NOW</button>
+        </div>
+    </div>
+    <div>
+        <img id="st1" src="{% static 'images/stadium.jpg' %}" >
+    </div>
+
+
+
+
+
+</body>
+
+</html>

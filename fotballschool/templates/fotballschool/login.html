@@ -1,0 +1,109 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'styles/login.css' %}">
+
+</head>
+
+<body>
+    <div id="nav1">
+        <div>
+            <img id="img1" src="https://keralablastersfc.in/wp-content/uploads/2022/07/logo-01.png">
+        </div>
+        <div class="nav2">
+            <ul>
+                <a class="at" href="{% url 'fotballschool:log' %}">
+                    <li>
+                        <h1>Home</h1>
+                    </li>
+                </a>
+                <a class="at" href="{% url 'fotballschool:clu' %}">
+                    <li>
+                        <h1>Club</h1>
+                    </li>
+                </a>
+                <a class="at" href="{% url 'fotballschool:tic' %}">
+                    <li>
+                        <h1>Ticket</h1>
+                    </li>
+                </a>
+                <a class="at" href="{% url 'fotballschool:sce' %}">
+                    <li>
+                        <h1>Schedule</h1>
+                    </li>
+                </a>
+                <a class="at" href="">
+                    <li>
+                        <h1>News</h1>
+                    </li>
+                </a>
+                <a class="at" href="{% url 'fotballschool:you' %}">
+                    <li>
+                        <h1>Young blasters</h1>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <div class="img2">
+            <span id="wrt1">
+                <h1>Rewaind KBFC:NEUFC</h1>
+                <p>NEUFC vs KBFC MEN IN YELLOW are back in the winning track by<br> defeating NORTHEAST UNITED FC 3-0 at
+                    Indira Gandhi Athletic Stadium</p>
+            </span>
+        </div>
+    </div>
+    <div>
+        <div><img id="img3" src="{% static 'images/nx1.jpg' %}"></div>
+        <div><img id="img4" src="{% static 'images/nx2.jpg' %}"></div>
+    </div>
+    <div>
+        <div>
+            <img id="img5" src="{% static 'images/table.jpg' %}">
+        </div>
+    </div>
+    <div>
+        <div id="ch1" style="text-align:center ;">
+            <h1>#yennum yellow</h1>
+        </div>
+    </div>
+    <div>
+        <div><img id="img6" src="{% static 'images/byjus.jpg' %}"></div>
+        <div><img id="img7" src="{% static 'images/croma.jpg' %}"></div>
+
+    </div>
+    <div id="gr">
+        <div>
+            <h1> ABOUT KBFC</h1>
+            <p> Formed on 27th May 2014, Kerala Blasters FC is one of the eleven teams that is a part of the Indian
+                Super
+                League (ISL) since its inception, with its Home ground at Jawaharlal Nehru Stadium, Kaloor, Kochi.
+
+                Jawaharlal Nehru International Stadium,Stadium Link Road,Kaloor, Kochi, Kerala 682017
+                info@kbfcofficial.com</p>
+        </div>
+        <div>
+            <h1>LINKS</h1>
+            <h3>.ISL</h3>
+            <h3> .Privacy Policy</h3>
+            <h3>.Terms and Conditions</h3>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

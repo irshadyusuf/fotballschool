@@ -1,0 +1,40 @@
+#img1{
+    height: 80px;
+    width: 90px;
+    position: absolute;
+    padding-left: 30px; 
+    
+}
+#nav1{
+    background-color: #1e6deb;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    
+}
+li{
+    position: relative;
+    left:500px;
+    display: inline;
+}
+
+h1{
+    display: inline;
+    padding: 20px;
+}
+#img11{
+    height: 700px;
+    width: 100%;
+}
+.nav2{
+    padding-top: 10px;
+    color: azure;
+}
+a{
+    text-decoration: none;
+}
+.at{
+    color: aliceblue;
+}
