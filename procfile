@@ -1,1 +1,0 @@
-web: gunicorn gokulam.wsgi --log-file -
